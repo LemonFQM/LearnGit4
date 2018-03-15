@@ -1,9 +1,12 @@
 #import <NSFoundation/NSFoundation.h>
 
-- (void)loginWithAccount:(NSString *)account password:(NSString *)password complete:(void (^)(NSError *))handler {
-	
-}
+@interface User: NSObject
 
-int main() {
-	return 0;	
-}
+- (void)loginWithAccount:(NSString *)account passowrd:(NSString *)password completion:(void (^)(NSError *))handler;
+
+- (void)registerWithAccount(NSString *)account password:(NSString *)password code:(NSString *)code completion:(void (^)(NSError *))handler;
+
+@end
+
+@implementation User
+@end
