@@ -14,6 +14,10 @@ int exchange(int *a, int *b) {
 	*b = c;
 }
 
+void register() {
+		
+}
+
 int main() {
 	printlf("this is c program");
 	return 0;	
