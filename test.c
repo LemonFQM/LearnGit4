@@ -1,5 +1,9 @@
 #include "stdio.h"
 
+void login(char *account, char *password, void *f()) {
+		
+}
+
 void log() {
 	printlf("这个是日志函数");	
 }
