@@ -11,4 +11,9 @@
 @end
 
 @implementation User
+
+- (void)loginWithAccount:(NSString *)account passowrd:(NSString *)password c    ompletion:(void (^)(NSError *))handler {
+	
+}
+
 @end
