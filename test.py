@@ -1,5 +1,5 @@
 #! /usr/bin
 
-#this is Log function
+# this is log function
 def log():
 	pass
